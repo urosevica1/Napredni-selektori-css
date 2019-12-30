@@ -1,0 +1,28 @@
+body> p:last-child:hover{
+      cursor: pointer;
+      font-style: italic;
+}
+
+a[href^="https://www.google.com"]{
+    
+  color: green; 
+    }
+
+
+a[target="_blank"]{
+
+    color: red;
+}
+
+ #second-div >p:nth-child(odd){
+     color:blue;
+ }
+
+ #second-div >p:nth-child(even){
+     color: red;
+      }
+
+ #first-div>p::after{
+     content: "-New";
+     color: yellow;
+ }
